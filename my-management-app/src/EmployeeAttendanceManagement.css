@@ -1,0 +1,36 @@
+.attendance-management-container {
+    background-image: url('/station-bg.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    min-height: 100vh; /* Full height */
+  }
+  
+  .search-and-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the search and actions */
+  }
+  
+  .action-buttons .ant-btn {
+    border-radius: 5px; /* Rounded corners for buttons */
+  }
+  
+  .attendance-table {
+    background-color: rgba(255, 255, 255, 0.9); /* White background for table */
+    border-radius: 8px; /* Rounded corners for table */
+  }
+  
+  .attendance-modal {
+    background: rgba(255, 255, 255, 0.9); /* Modal background with transparency */
+    border-radius: 8px; /* Rounded corners for modal */
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+  }
+  
